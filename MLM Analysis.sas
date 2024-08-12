@@ -1,6 +1,6 @@
  
 							*********************************
- 							*******Zacks MA Thesis MLM*******
+ 							*******Openness Intervention*****
  							*********************************	
 
 
@@ -11,7 +11,7 @@
 
 *Reading in WBC Dataset V8a.sav;
 
-proc import datafile= 'C:\Users\Zack\Desktop\Current Projects\Openness Project\Data\WBC Dataset V8a.sav'
+proc import datafile= 'C:\...WBC Dataset V8a.sav'
 out= wbcMasterDaily dbms = sav replace;
 run;
 

@@ -1,0 +1,15 @@
+{
+  "_captured_at": "2026-07-27T18:23:49+00:00",
+  "_captured_run_id": "r_0e83dcc30a7c4647b31b4c357224e27e",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "Wrote wbcMasterPPP (20 rows, 37 columns).",
+    "Wrote wbc_prepostpost (60 rows, 16 columns).",
+    "Standardized 60 rows, 10 variables.",
+    "Standardized 60 rows, 12 variables.",
+    "PROC MEANS statement used."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

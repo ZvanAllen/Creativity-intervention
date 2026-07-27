@@ -1,0 +1,84 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA wbcMasterDaily
+
+NOTE: Processing inline DATALINES (20 lines)
+
+NOTE: Read 20 rows from DATALINES.
+NOTE: Wrote wbcMasterDaily (20 rows, 38 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA wbc_daily
+
+
+NOTE: Read 20 rows from wbcMasterDaily.
+NOTE: Wrote wbc_daily (100 rows, 11 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC MIXED data=wbc_daily
+
+NOTE: PROC MIXED: using Python wrapper (mixed_renderer.py).
+NOTE: PROC MIXED results written to: ./ods_output/mixed_results.spec.json
+NOTE: Formula: Daily_Authenticity ~ Time
+NOTE: Group variable: ID
+NOTE: Estimation method: REML (reml=True)
+NOTE: 
+NOTE: Mixed Linear Model Results:
+NOTE:              Mixed Linear Model Regression Results
+NOTE: ================================================================
+NOTE: Model:            MixedLM Dependent Variable: Daily_Authenticity
+NOTE: No. Observations: 100     Method:             REML              
+NOTE: No. Groups:       20      Scale:              0.0774            
+NOTE: Min. group size:  5       Log-Likelihood:     -47.6546          
+NOTE: Max. group size:  5       Converged:          Yes               
+NOTE: Mean group size:  5.0                                           
+NOTE: ------------------------------------------------------------------
+NOTE:                Coef.   Std.Err.     z      P>|z|   [0.025   0.975]
+NOTE: ------------------------------------------------------------------
+NOTE: Intercept      5.538      0.141   39.239   0.000    5.261    5.814
+NOTE: Time           0.001      0.020    0.051   0.959   -0.038    0.040
+NOTE: Group Var      0.313      0.427                                   
+NOTE: ================================================================
+NOTE: 
+NOTE: Results written to: ./ods_output/mixed_results.json
+NOTE: ODS plot written: mixed_residuals_vs_predicted.spec.json
+NOTE: ODS plot written: mixed_residual_histogram_panel.spec.json
+NOTE: ODS plot written: mixed_residuals_vs_obs_order.spec.json
+NOTE: ODS plot written: mixed_qq_plot.spec.json
+NOTE: ODS plot written: mixed_diagnostics.spec.json
+NOTE: PROC MIXED ODS Graphics generated.
+NOTE: PROC MIXED data=wbc_daily
+
+NOTE: PROC MIXED: using Python wrapper (mixed_renderer.py).
+NOTE: PROC MIXED results written to: ./ods_output/mixed_results.spec.json
+NOTE: Formula: Daily_Authenticity ~ Time
+NOTE: Group variable: ID
+NOTE: Estimation method: REML (reml=True)
+NOTE: 
+NOTE: Mixed Linear Model Results:
+NOTE:              Mixed Linear Model Regression Results
+NOTE: ================================================================
+NOTE: Model:            MixedLM Dependent Variable: Daily_Authenticity
+NOTE: No. Observations: 100     Method:             REML              
+NOTE: No. Groups:       20      Scale:              0.0650            
+NOTE: Min. group size:  5       Log-Likelihood:     -46.2995          
+NOTE: Max. group size:  5       Converged:          Yes               
+NOTE: Mean group size:  5.0                                           
+NOTE: -----------------------------------------------------------------
+NOTE:                   Coef.   Std.Err.    z     P>|z|  [0.025  0.975]
+NOTE: -----------------------------------------------------------------
+NOTE: Intercept          5.538     0.147  37.619  0.000   5.249   5.826
+NOTE: Time               0.001     0.024   0.041  0.967  -0.046   0.048
+NOTE: Group Var          0.362     0.633                               
+NOTE: Group x Time Cov  -0.015     0.076                               
+NOTE: Time Var           0.005     0.017                               
+NOTE: ================================================================
+NOTE: 
+NOTE: Results written to: ./ods_output/mixed_results.json
+NOTE: ODS plot written: mixed_residuals_vs_predicted.spec.json
+NOTE: ODS plot written: mixed_residual_histogram_panel.spec.json
+NOTE: ODS plot written: mixed_residuals_vs_obs_order.spec.json
+NOTE: ODS plot written: mixed_qq_plot.spec.json
+NOTE: ODS plot written: mixed_diagnostics.spec.json
+NOTE: PROC MIXED ODS Graphics generated.

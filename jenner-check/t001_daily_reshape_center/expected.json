@@ -1,0 +1,15 @@
+{
+  "_captured_at": "2026-07-27T18:21:30+00:00",
+  "_captured_run_id": "r_cc098fd39f6949678ebbbb42b023d33a",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "Wrote wbcMasterDaily (20 rows, 38 columns).",
+    "Wrote wbc_daily (100 rows, 11 columns).",
+    "PROC STANDARD data=wbc_daily_center",
+    "Standardized 100 rows, 7 variables.",
+    "PROC MEANS statement used."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

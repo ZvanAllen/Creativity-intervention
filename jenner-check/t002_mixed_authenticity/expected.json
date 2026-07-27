@@ -1,0 +1,15 @@
+{
+  "_captured_at": "2026-07-27T18:22:46+00:00",
+  "_captured_run_id": "r_4374a383971345cd80965dd39fbf6d6e",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "Wrote wbc_daily (100 rows, 11 columns).",
+    "Formula: Daily_Authenticity ~ Time",
+    "Group variable: ID",
+    "Estimation method: REML (reml=True)",
+    "PROC MIXED ODS Graphics generated."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

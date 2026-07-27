@@ -1,0 +1,93 @@
+             The Mixed Procedure             
+              Model Information              
+
+Item                                    Value
+-------------------------  ------------------
+Dependent Variable         Daily_Authenticity
+Estimation Method                        REML
+Covariance Structure                       UN
+Degrees of Freedom Method      Between-Within
+Number of Observations                    100
+
+Covariance Parameter Estimates
+
+Cov Parm  Subject   Estimate
+--------  --------  --------
+UN        ID          0.3132
+Residual              0.0774
+
+        Type III Tests of Fixed Effects         
+
+Effect      Num DF    Den DF   F Value    Pr > F
+--------  --------  --------  --------  --------
+Time             1      79.0      0.00    0.9596
+
+         Fit Statistics          
+
+Statistic                   Value
+-----------------------  --------
+-2 Res Log Likelihood     95.3092
+AIC (Smaller is Better)   99.3092
+BIC (Smaller is Better)  104.5195
+
+                   Solution for Fixed Effects                    
+
+Effect     Estimate  Standard Error        DF   t Value  Pr > |t|
+---------  --------  --------------  --------  --------  --------
+Intercept    5.5377          0.1411         .     39.24    <.0001
+Time         0.0010          0.0197         .      0.05    0.9595
+
+Tests of Covariance Parameters Based on the Restricted Likelihood
+
+Label         -2 Res Log Like        DF  Chi-Square  Pr > ChiSq
+------------  ---------------  --------  ----------  ----------
+UN = 0                95.3092         1     49.5000      <.0001
+Residual = 0          95.3092         1     49.5000      <.0001
+             The Mixed Procedure             
+              Model Information              
+
+Item                                    Value
+-------------------------  ------------------
+Dependent Variable         Daily_Authenticity
+Estimation Method                        REML
+Covariance Structure                       UN
+Degrees of Freedom Method      Between-Within
+Number of Observations                    100
+
+  Covariance Parameter Estimates   
+
+Cov Parm         Subject   Estimate
+---------------  --------  --------
+UN               ID          0.3619
+Cov(Group,Time)  ID         -0.0155
+UN               ID          0.0052
+Residual                     0.0650
+
+        Type III Tests of Fixed Effects         
+
+Effect      Num DF    Den DF   F Value    Pr > F
+--------  --------  --------  --------  --------
+Time             1      79.0      0.00    0.9671
+
+         Fit Statistics          
+
+Statistic                   Value
+-----------------------  --------
+-2 Res Log Likelihood     92.5990
+AIC (Smaller is Better)  100.5990
+BIC (Smaller is Better)  111.0197
+
+                   Solution for Fixed Effects                    
+
+Effect     Estimate  Standard Error        DF   t Value  Pr > |t|
+---------  --------  --------------  --------  --------  --------
+Intercept    5.5377          0.1472         .     37.62    <.0001
+Time         0.0010          0.0242         .      0.04    0.9670
+
+Tests of Covariance Parameters Based on the Restricted Likelihood
+
+Label         -2 Res Log Like        DF  Chi-Square  Pr > ChiSq
+------------  ---------------  --------  ----------  ----------
+UN = 0                92.5990         1     49.5000      <.0001
+UN = 0                92.5990         1     49.5000      <.0001
+Residual = 0          92.5990         1     49.5000      <.0001

@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_mixed_authenticity",
+  "source_file": "MLM Analysis.sas",
+  "source_blob_sha": "4eaf4352ca682edc02079e5e937b31b7a8fd6ab7",
+  "source_commit": "eff8a86ea30ef6fb7aeeeecf2bb6b886154fce2b",
+  "notes": "Daily-logs Authenticity multilevel models A (unconditional random intercept) and B (random intercept + Time slope, type=un), REML with ddfm=bw. Reshape from a 20-subject synthetic wbcMasterDaily (columns match the author's DATA step); both PROC MIXED calls are the author's own, unchanged. Both models converge on Jenner."
+}
